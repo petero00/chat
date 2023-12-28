@@ -3,7 +3,7 @@ const recognition = new SpeechRecognition();
 let text = document.getElementById('text');
 let face = document.getElementById('face');
 let massege;
-let flag = 1;// 返答用　１通常　2挨拶　3名前を覚える　4…
+let flag = 1;// 返答用　１通常　2挨拶　3名前を覚える　4ゲーム(ジャンケン)
 let namae;
 
 
