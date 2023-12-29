@@ -1,12 +1,19 @@
-#text{
+#box{
     margin: 0 auto;
     width: 50%;
     height: 250px;
     border: 8px solid black;
     border-radius: 20px;
     background-color: white;
+}
+p {
     font-size: 30px;
 }
 h1{
     font-size: 40px;
+}
+#gazo{
+    display: none;
+    width: auto;
+    height: 80px;
 }
