@@ -224,6 +224,9 @@ recognition.onresult = (event) => {
     else if(flag == 8) {
         if(message.includes(abcdef)) {
             say('当たりだよ!!答えは「' + abcdef + '」だよ。');
+        }
+        else if(message.includes('鎌倉')){
+            say('当たりだよ!!答えは「かまくら」だよ。')
         }else{
             say('違うなぁ～、また、挑戦して!!');
         }
